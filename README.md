@@ -3,9 +3,6 @@
 
 <div align="center">
 
-<!-- Animated Neural Network Header -->
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/header.svg" width="100%" alt="NeuroMatch Banner"/>
-
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -16,13 +13,15 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/yourusername/neuromatch/graphs/commit-activity)
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+
 </div>
 
 ---
 
 ## 🚀 Overview
 
-<img align="right" src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/ai-brain.svg" width="200" alt="AI Brain Animation"/>
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="250">
 
 **NeuroMatch** is an intelligent, context-aware job matching system powered by deep learning and NLP. Unlike traditional keyword-based systems, NeuroMatch understands **semantic context** to deliver precise, explainable job recommendations at scale.
 
@@ -40,7 +39,7 @@
 ## 🌟 Core Features
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/features.svg" width="800" alt="Features Animation"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="800">
 </div>
 
 | Feature | Description | Tech Stack |
@@ -59,7 +58,11 @@
 ## 🧩 Tech Stack
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/tech-stack.svg" width="700" alt="Tech Stack Animation"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="100">
 </div>
 
 <table>
@@ -100,7 +103,7 @@
 ## 📊 Performance Benchmarks
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/performance.svg" width="600" alt="Performance Graph"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="500">
 </div>
 
 | Dataset Size | Retrieval Method | Latency | Top-5 Accuracy | Throughput |
@@ -114,7 +117,7 @@
 
 ## 🚀 Quick Start
 
-<img align="right" src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/rocket.svg" width="150" alt="Rocket Animation"/>
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="200">
 
 ### Prerequisites
 - Docker installed ([Get Docker](https://docs.docker.com/get-docker/))
@@ -158,10 +161,6 @@ uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
 ---
 
 ## 📁 Project Structure
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/folder-structure.svg" width="600" alt="Folder Structure"/>
-</div>
 
 ```
 NeuroMatch/
@@ -209,7 +208,7 @@ NeuroMatch/
 
 ## 🔌 API Usage
 
-<img align="right" src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/api.svg" width="180" alt="API Animation"/>
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="150">
 
 ### Match Candidates to Job
 
@@ -244,10 +243,6 @@ curl -X POST "http://localhost:8000/api/v1/match" \
 ---
 
 ## 🧠 System Architecture
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/architecture.svg" width="100%" alt="System Architecture Animation"/>
-</div>
 
 <div align="center">
 
@@ -294,7 +289,7 @@ graph TD
 ## 📊 Model Details
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/model.svg" width="500" alt="Model Animation"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 </div>
 
 ### Embedding Model
@@ -315,7 +310,7 @@ graph TD
 
 ## 🧪 Running Tests
 
-<img align="right" src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/testing.svg" width="150" alt="Testing Animation"/>
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="150">
 
 ```bash
 # Run all tests
@@ -335,7 +330,7 @@ pytest tests/test_retrieval.py -v
 ## 🚢 Deployment
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/deployment.svg" width="700" alt="Deployment Animation"/>
+<img src="https://user-images.githubusercontent.com/74038190/212281756-450d3ffa-9335-4b98-a965-db8a18fee927.gif" width="500">
 </div>
 
 ### Kubernetes Deployment
@@ -365,8 +360,6 @@ LOG_LEVEL=INFO
 
 ## 🎯 Roadmap
 
-<img align="right" src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/roadmap.svg" width="180" alt="Roadmap Animation"/>
-
 - [x] Core embedding and retrieval pipeline
 - [x] FastAPI integration
 - [x] Docker containerization
@@ -378,14 +371,12 @@ LOG_LEVEL=INFO
 - [ ] Advanced explainability dashboard
 - [ ] GraphQL API support
 
-<br clear="right"/>
-
 ---
 
 ## 🤝 Contributing
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/contributing.svg" width="500" alt="Contributing Animation"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284119-fbfd994d-8c2a-4a07-a75f-84e513833c33.gif" width="400">
 </div>
 
 Contributions are welcome! Please check out our [Contributing Guidelines](CONTRIBUTING.md).
@@ -407,46 +398,30 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Resume Pitch
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/pitch.svg" width="100%" alt="Resume Pitch"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284094-e50ecea9-a7c5-4ebd-8adf-594b7a0f6232.gif" width="600">
 </div>
 
 > Designed **NeuroMatch**, a deep learning-powered, context-aware job-matching system using transformer embeddings (Sentence-BERT), FAISS retrieval, and explainable ranking models, achieving **sub-10ms latency** and **87% Top-5 accuracy** on large-scale data. Implemented production-ready FastAPI backend with Redis caching and deployed on Kubernetes with full CI/CD pipeline.
 
 ---
 
-## 📄 Architecture Documentation
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/pdf-download.svg" width="400" alt="PDF Download Animation"/>
-
-### 📥 [**Download System Architecture PDF**](./neuromatch_architecture.pdf)
-
-*Complete system design diagram showing data flow, component interactions, and deployment architecture*
-
-[![Architecture Preview](https://img.shields.io/badge/View-Architecture%20Diagram-blue?style=for-the-badge&logo=adobeacrobatreader)](./neuromatch_architecture.pdf)
-
-</div>
-
----
-
 ## 📧 Contact
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/contact.svg" width="500" alt="Contact Animation"/>
+
+**Project Maintainer:** Sairaj Chowdhary
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dantevale333@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SairajChowdhary)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SairajChowdhary)
+
 </div>
-
-**Project Maintainer:** Your Name
-
-- 📧 Email: dantevale333@gmail.com
-- 🐙 GitHub: [@SairajChowdhary](https://github.com/SairajChowdhary)
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/SairajChowdhary)
 
 ---
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/yourusername/neuromatch/main/assets/footer.svg" width="100%" alt="Footer Animation"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
 ### ⭐ Star this repo if you find it useful!
 
@@ -454,5 +429,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/neuromatch?style=social)](https://github.com/yourusername/neuromatch/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/neuromatch?style=social)](https://github.com/yourusername/neuromatch/network/members)
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 </div>
