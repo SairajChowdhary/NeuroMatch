@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sentence-transformers
+torch
+transformers
+datasets
+scikit-learn
+pandas
+numpy
+redis
+python-multipart
+pydantic
+faiss-cpu

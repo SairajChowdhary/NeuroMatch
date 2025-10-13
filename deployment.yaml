@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: neuromatch
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: neuromatch
+  template:
+    metadata:
+      labels:
+        app: neuromatch
+    spec:
+      containers:
+        - name: neuromatch
+          image: your-docker-repo/neuro-match:latest
+          ports:
+            - containerPort: 8000
+          env:
+            - name: REDIS_URL
+              value: redis://redis:6379/0
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: neuromatch
+spec:
+  selector:
+    app: neuromatch
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: ClusterIP
